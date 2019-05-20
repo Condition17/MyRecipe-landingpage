@@ -550,6 +550,11 @@ p {
     color: #fb397d;
 }
 
+.single-icon > ion-icon {
+    font-size: 36px;
+    color: #fb397d;
+}
+
 .single-special > h4 {
     font-size: 22px;
     color: #5b32b4;
@@ -754,7 +759,7 @@ p {
     background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
     background: -o-linear-gradient(right, #7873ed, #a865e1);
     background: linear-gradient(to left, #7873ed, #a865e1);
-    padding: 180px 0 80px 0;
+    padding: 50px 0 80px 0;
     top: -100px;
 }
 
@@ -1044,7 +1049,8 @@ p {
 
 .membership-description > h2 {
     color: #ffffff;
-    font-size: 36px;
+    font-weight: 600;
+    font-size: 45px;
 }
 
 .membership-description > p {
@@ -1293,4 +1299,14 @@ p {
 
 .copyright-text > p {
     margin-bottom: 0;
+}
+
+#free-plan {
+    margin-left: 17%;
+}
+
+@media (max-width: 992px) {
+    #free-plan {
+        margin-left: 0px;
+    }
 }
